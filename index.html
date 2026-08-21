@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Nestor Gavilanes — Psychology student, AI data annotation and evaluation professional.">
+  <meta name="description" content="Nestor Gavilanes — Psychology student and AI data annotation & evaluation professional.">
+  <meta name="author" content="Nestor Gavilanes">
+  <meta property="og:title" content="Nestor Gavilanes | Psychology × AI">
+  <meta property="og:description" content="Psychology student focused on AI evaluation, data quality, research and human behavior.">
+  <meta property="og:type" content="website">
   <title>Nestor Gavilanes | Psychology × AI</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,20 +15,22 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="nav">
-    <a class="brand" href="#top">NG<span>.</span></a>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#top" aria-label="Nestor Gavilanes home">NG<span>.</span></a>
     <div class="nav-links">
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
+      <a href="#education">Education</a>
     </div>
     <a class="nav-cta" href="#contact">Let's connect ↗</a>
   </nav>
 
-  <main id="top">
-    <section class="hero section">
+  <main id="main">
+    <section id="top" class="hero section">
       <div class="hero-copy">
         <p class="eyebrow">PSYCHOLOGY × ARTIFICIAL INTELLIGENCE</p>
         <h1>Understanding people.<br><span>Improving AI.</span></h1>
@@ -35,22 +41,25 @@
         </p>
         <div class="hero-actions">
           <a class="button primary" href="#projects">View my work</a>
-          <a class="button secondary" href="#contact">Get in touch</a>
+          <a class="button secondary" href="mailto:nestor.gavilanes.rh@gmail.com">Contact me</a>
         </div>
-        <div class="quick-facts">
+        <div class="quick-facts" aria-label="Areas of focus">
           <span>Psychology</span><span>AI Evaluation</span><span>Research</span><span>Remote</span>
         </div>
       </div>
+
       <div class="hero-card">
-        <div class="orb"></div>
-        <div class="card-label">CURRENT FOCUS</div>
-        <h2>Human behavior<br>& AI systems</h2>
-        <p>Building a career where psychological knowledge and practical AI work meet.</p>
-        <div class="card-line"></div>
-        <div class="mini-grid">
-          <div><strong>01</strong><span>Analyze</span></div>
-          <div><strong>02</strong><span>Evaluate</span></div>
-          <div><strong>03</strong><span>Improve</span></div>
+        <div class="orb" aria-hidden="true"></div>
+        <div class="card-content">
+          <div class="card-label">CURRENT FOCUS</div>
+          <h2>Human behavior<br>&amp; AI systems</h2>
+          <p>Building a career where psychological knowledge and practical AI work meet.</p>
+          <div class="card-line"></div>
+          <div class="mini-grid">
+            <div><strong>01</strong><span>Analyze</span></div>
+            <div><strong>02</strong><span>Evaluate</span></div>
+            <div><strong>03</strong><span>Improve</span></div>
+          </div>
         </div>
       </div>
     </section>
@@ -63,13 +72,12 @@
       <div class="body-copy">
         <p>
           I’m currently studying Psychology at UADE in Argentina. Alongside my academic
-          training, I’ve worked on AI-related projects involving data annotation and
-          evaluation.
+          training, I’ve worked on AI-related projects involving data annotation and evaluation.
         </p>
         <p>
-          My strengths are attention to detail, analytical thinking, following complex
-          guidelines, consistency, and an interest in understanding how people think,
-          communicate and interact with technology.
+          My strengths are attention to detail, analytical thinking, careful interpretation
+          of task requirements, consistency, and an interest in understanding how people
+          think, communicate and interact with technology.
         </p>
         <p>
           I’m especially interested in opportunities involving AI training and evaluation,
@@ -80,27 +88,29 @@
 
     <section id="experience" class="section">
       <p class="eyebrow">02 — EXPERIENCE</p>
-      <h2 class="section-title">What I bring to a project.</h2>
+      <h2 class="section-title">Experience built around accuracy, analysis and people.</h2>
+
       <div class="timeline">
         <article class="timeline-item">
-          <div class="timeline-dot"></div>
+          <div class="timeline-dot" aria-hidden="true"></div>
           <div class="timeline-meta">AI PROJECTS · REMOTE</div>
-          <h3>Data Annotation & Evaluation</h3>
+          <h3>AI Data Annotation &amp; Evaluation</h3>
           <p>
             Experience contributing to AI-related workflows where accuracy, consistency,
             careful guideline interpretation and quality control are essential.
           </p>
           <div class="tags"><span>Annotation</span><span>Evaluation</span><span>Quality</span><span>Guidelines</span></div>
         </article>
+
         <article class="timeline-item">
-          <div class="timeline-dot"></div>
+          <div class="timeline-dot" aria-hidden="true"></div>
           <div class="timeline-meta">ACADEMIC · UADE</div>
           <h3>Psychology Student</h3>
           <p>
             Academic training in psychology, with an interest in psychopathology,
-            human development, research, assessment and human behavior.
+            human development, assessment, research and human behavior.
           </p>
-          <div class="tags"><span>Psychology</span><span>Research</span><span>Human Behavior</span></div>
+          <div class="tags"><span>Psychology</span><span>Research</span><span>Assessment</span><span>Human Behavior</span></div>
         </article>
       </div>
     </section>
@@ -108,36 +118,50 @@
     <section id="projects" class="section">
       <p class="eyebrow">03 — PROJECTS</p>
       <div class="project-heading">
-        <h2 class="section-title">Selected work & areas of interest.</h2>
-        <p class="muted">Add your real public projects here as your portfolio grows.</p>
+        <div>
+          <h2 class="section-title">Selected work &amp; areas of interest.</h2>
+        </div>
+        <p class="muted">A growing portfolio of work connecting psychology, research and AI.</p>
       </div>
+
       <div class="project-grid">
         <article class="project-card featured">
           <span class="project-number">01</span>
           <div>
             <p class="project-type">AI · DATA QUALITY</p>
-            <h3>AI Data Annotation & Evaluation</h3>
-            <p>Practical experience supporting AI systems through structured annotation, evaluation and adherence to detailed task criteria.</p>
+            <h3>AI Data Annotation &amp; Evaluation</h3>
+            <p>
+              Practical experience supporting AI systems through structured annotation,
+              evaluation and adherence to detailed task criteria.
+            </p>
           </div>
-          <span class="arrow">↗</span>
+          <span class="arrow" aria-hidden="true">↗</span>
         </article>
+
         <article class="project-card">
           <span class="project-number">02</span>
           <div>
             <p class="project-type">PSYCHOLOGY · RESEARCH</p>
-            <h3>Human Behavior & Assessment</h3>
-            <p>Academic work exploring psychological concepts, measurement, assessment and the interpretation of human behavior.</p>
+            <h3>Human Behavior &amp; Assessment</h3>
+            <p>
+              Academic work exploring psychological concepts, measurement, assessment
+              and the interpretation of human behavior.
+            </p>
           </div>
-          <span class="arrow">↗</span>
+          <span class="arrow" aria-hidden="true">↗</span>
         </article>
+
         <article class="project-card">
           <span class="project-number">03</span>
           <div>
-            <p class="project-type">FUTURE PROJECT</p>
-            <h3>Psychology × AI</h3>
-            <p>A space for future projects at the intersection of psychology, language, human behavior and intelligent systems.</p>
+            <p class="project-type">PSYCHOLOGY × AI</p>
+            <h3>Human-Centered AI</h3>
+            <p>
+              A growing area of interest focused on language, human behavior and the
+              quality of interactions with intelligent systems.
+            </p>
           </div>
-          <span class="arrow">↗</span>
+          <span class="arrow" aria-hidden="true">↗</span>
         </article>
       </div>
     </section>
@@ -148,35 +172,42 @@
         <h2 class="section-title">Tools for careful, human-centered work.</h2>
       </div>
       <div class="skill-list">
-        <div class="skill"><span>01</span><b>AI Data Annotation</b><small>Structured labeling & task execution</small></div>
-        <div class="skill"><span>02</span><b>AI Evaluation</b><small>Quality, consistency & response assessment</small></div>
-        <div class="skill"><span>03</span><b>Psychology</b><small>Human behavior & psychological concepts</small></div>
+        <div class="skill"><span>01</span><b>AI Data Annotation</b><small>Structured labeling &amp; task execution</small></div>
+        <div class="skill"><span>02</span><b>AI Evaluation</b><small>Quality, consistency &amp; response assessment</small></div>
+        <div class="skill"><span>03</span><b>Psychology</b><small>Human behavior &amp; psychological concepts</small></div>
         <div class="skill"><span>04</span><b>Research</b><small>Analytical and evidence-oriented thinking</small></div>
-        <div class="skill"><span>05</span><b>Critical Thinking</b><small>Comparing, interpreting & checking information</small></div>
+        <div class="skill"><span>05</span><b>Critical Thinking</b><small>Comparing, interpreting &amp; checking information</small></div>
         <div class="skill"><span>06</span><b>English</b><small>Professional written communication</small></div>
       </div>
     </section>
 
-    <section class="section education">
+    <section id="education" class="section education">
       <p class="eyebrow">05 — EDUCATION</p>
       <div class="education-card">
         <div>
           <p class="project-type">UNIVERSIDAD ARGENTINA DE LA EMPRESA</p>
           <h2>Psychology</h2>
+          <p class="education-note">Undergraduate student · Argentina</p>
         </div>
-        <span>Argentina</span>
+        <span class="education-place">UADE</span>
       </div>
     </section>
 
     <section id="contact" class="section contact">
       <p class="eyebrow">06 — CONTACT</p>
       <h2>Let’s build something<br><span>worth understanding.</span></h2>
-      <p>Open to remote opportunities in AI, research, evaluation, psychology and related fields.</p>
+      <p>
+        Open to remote opportunities in AI, research, evaluation, psychology and related fields.
+      </p>
       <div class="contact-actions">
-        <!-- Replace these links with your real profiles before publishing. -->
         <a class="button primary" href="mailto:nestor.gavilanes.rh@gmail.com">Email me ↗</a>
-        <a class="button secondary" href="https://www.linkedin.com/in/néstor-gavilanes-854b54412" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-        <a class="button secondary" href="https://github.com/Nestorrh-dev" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="button secondary" href="https://www.linkedin.com/in/néstor-gavilanes-854b54412" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a class="button secondary" href="https://github.com/Nestorrh-dev" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      </div>
+      <div class="contact-details">
+        <a href="mailto:nestor.gavilanes.rh@gmail.com">nestor.gavilanes.rh@gmail.com</a>
+        <span>·</span>
+        <a href="https://www.linkedin.com/in/néstor-gavilanes-854b54412" target="_blank" rel="noopener noreferrer">linkedin.com/in/néstor-gavilanes-854b54412</a>
       </div>
     </section>
   </main>
